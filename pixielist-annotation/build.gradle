@@ -4,5 +4,32 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
 
+ext {
+    bintrayRepo = 'PixieList'
+    bintrayName = 'PixieList'
+
+    publishedGroupId = 'kairischarm.pixielist'
+    libraryName = 'PixieListAnnotation'
+    artifact = 'PixieList'
+
+    libraryDescription = 'Annotations for generating RecyclerView with Adapter and ViewHolder'
+
+    siteUrl = 'https://github.com/kairischarm/pixielist'
+    gitUrl = 'https://github.com/kairischarm/pixielist.git'
+
+    libraryVersion = '1.0'
+
+    developerId = 'kairischarm'
+    developerName = 'KairisCharm'
+    developerEmail = 'kairischarm@gmail.com'
+
+    licenseName = 'PUBLIC DOMAIN'
+    licenseUrl = 'https://creativecommons.org/licenses/publicdomain/'
+    allLicenses = ["Public Domain"]
+}
+
 sourceCompatibility = "1.7"
 targetCompatibility = "1.7"
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
