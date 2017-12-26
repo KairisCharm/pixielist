@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/pixielist.iml" filepath="$PROJECT_DIR$/pixielist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pixielist-annotation/pixielist-annotation.iml" filepath="$PROJECT_DIR$/pixielist-annotation/pixielist-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pixielist-processor/pixielist-processor.iml" filepath="$PROJECT_DIR$/pixielist-processor/pixielist-processor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pixielist-test/pixielist-test2.iml" filepath="$PROJECT_DIR$/pixielist-test/pixielist-test2.iml" />
+    </modules>
+  </component>
+</project>

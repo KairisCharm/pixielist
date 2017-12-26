@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="data"
+            type="com.example.pixielist_test.test2.RecyclerViewTestDataObject"/>
+    </data>
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_dark">
+
+        <Switch
+            android:id="@+id/testSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="@{data.GetText()}"
+            android:textColor="@android:color/background_light"/>
+
+    </LinearLayout>
+</layout>
